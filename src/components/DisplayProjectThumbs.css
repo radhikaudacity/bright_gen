@@ -1,0 +1,126 @@
+
+.display-thumbs-wrapper{
+    padding: 0 10%;  
+  
+  }
+.top-text {
+    margin-top: 2rem;
+  }
+  .centre-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin:1rem 0;
+  }
+  .subtitle {
+    text-align: center;
+    color: black;
+    margin:1rem 0;
+  
+    font-size: 2rem;
+  }
+  /*  profolio images////////////// */
+  
+  .portfolio-items-wrapper {
+      
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-wrap {
+    flex: 1 0 30%;
+  }
+  .portfolio-item-wrapper {
+    position: relative;
+    margin: 10px 10px;
+    background-color: #fca510;
+    border: 2px;
+    border-color: #f7f5f5;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .portfolio-img-bg {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px #d69a9a; */
+  }
+  .img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    /* since the direction is column , the centering horizontally has to be done with "align-items" and "width" properties */
+    align-items: center;
+    width: 100%;
+  
+    /* since the direction is column , the centering vertically has to be done with "justify-content" and "height" properties */
+    justify-content: center;
+    height: 100%;
+  
+   
+  }
+  
+  .cardtitle {
+    color: transparent;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .cardtitle-sm {
+    color: transparent;
+    font-size: 1rem;
+    font-style: italic;
+  
+    transition: 0.5s;
+  }
+  .logo-wrapper {
+    /* width: 50%; */
+    margin-bottom: 10px;
+    font-size: 3rem;
+    color: transparent;
+    transition: 0.5s;
+  }
+  
+  /* ///on mouseover */
+  .cardtitle-mouseover {
+    color: rgb(50, 51, 51);
+  
+    /* font-weight: bold; */
+  }
+  .cardtitle2-mouseover {
+    color: rgb(50, 51, 51);
+    text-align: center;
+  
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .image-darken {
+    transition: 0.5s;
+    filter: opacity(0);
+  }
+  .logo-image {
+    width: 10%;
+  }
+  .logo-thumb {
+    width:3rem;
+      height:3rem;  
+  }
+  @media (max-width: 855px) {
+    .centre-title {
+      font-size: 1.5rem;
+      
+    }
+    .flex-wrap {
+      flex: 1 0 50%;
+    }
+    .subtitle {
+      font-size: 1.7rem;
+    }
+  }
+  @media (max-width: 415px) {
+    .flex-wrap {
+      flex: 1 0 100%;
+    }
+  }
+  

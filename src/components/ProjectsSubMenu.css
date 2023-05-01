@@ -1,0 +1,27 @@
+.submenu h3 {
+ 
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+.submenu ul {
+  padding-top: 1rem;
+  margin-top: 1rem;
+  list-style: none;
+  padding-left:0;
+}
+
+.submenu li {
+  font-size: 1rem;
+ 
+  padding: 1rem;
+  border: transparent;
+  text-align: left;
+  color: gray;
+}
+.submenu li a:hover {
+  color: #0000ff;
+}
+.active-btn {
+  box-shadow: #fca510 1px 1px 10px 1px;
+}

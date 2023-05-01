@@ -1,0 +1,37 @@
+export { default as slider1 } from './carousel/slider1.jpg';
+export { default as slider2 } from './carousel/slider2.jpg';
+export { default as slider3 } from './carousel/slider3.jpg';
+export { default as slider4 } from './carousel/slider4.jpg';
+export { default as slider5 } from './carousel/slider5.jpg';
+
+export { default as project1_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project2_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project3_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project4_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project5_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project6_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project7_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project8_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project9_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project10_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project11_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project12_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project13_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project14_300 } from './showProjects/eightenwatt300.jpg';
+export { default as project15_300 } from './showProjects/eightenwatt300.jpg';
+
+export { default as project1 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project2 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project3 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project4 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project5 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project6 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project7 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project8 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project9 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project10 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project11 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project12 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project13 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project14 } from './projectDetail/EighteenWatt1094.jpg';
+export { default as project15 } from './projectDetail/EighteenWatt1094.jpg';

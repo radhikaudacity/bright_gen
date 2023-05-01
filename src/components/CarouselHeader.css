@@ -1,0 +1,23 @@
+.sliderimg {
+    
+    width: 100%;
+    height: auto;
+  }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    position: absolute;
+    bottom: 50%;
+    width: auto;
+    font-size: 40px;
+    color: rgb(198, 228, 28);
+  }
+  .alice-carousel__prev-btn:hover {
+    color: rgb(198, 228, 28);
+  }
+  .alice-carousel__next-btn {
+    right: 0;
+  }
+  .alice-carousel__prev-btn {
+   left: 0;
+  }
+  
